@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+    
+    
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.home__page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  
+}
+.login-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+
+    
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.material__icon {
+    padding: 15px !important;
+    color: white !important;
+    /* font-size: 25px !important; */
+
+    
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    padding: 15px;
+    flex: 1;
+    background:none;
+    color: white;
+    font-size: 18px;
+    
+}
+.input-group input::placeholder{
+    color: white;
+}
+
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
