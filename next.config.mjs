@@ -4,6 +4,7 @@ const nextConfig = {
     swcMinify: true,
     trailingSlash: true,
     generateEtags: false,
+    output : "export"
    
 };
 

@@ -12,6 +12,7 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.19",
+    "firebase": "^10.12.2",
     "googleapis": "^137.1.0",
     "js-cookie": "^3.0.5",
     "mysql2": "^3.10.0",
